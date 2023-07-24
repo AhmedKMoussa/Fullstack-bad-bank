@@ -62,7 +62,7 @@ As part of the back end, the app uses Node.js and MongoDB for storage.
 
 ### Link Live Demo
 
-[Live AWS S3](http://jesse-garcia-full-stack-banking-application.s3-website.ca-central-1.amazonaws.com/#/)
+[Live AWS S3]()
 To install this MITxPRO GitHub page project in your local machine, follow these steps:
 
 1. Download or clone the project from GitHub Repository.
