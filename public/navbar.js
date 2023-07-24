@@ -27,30 +27,30 @@ function NavBar() {
             </button>
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav">
-                // <li className="nav-item">
-                //   <NavLink
-                //     data-bs-toggle="tooltip"
-                //     data-bs-placement="bottom"
-                //     title="Create a new account"
-                //     className="nav-link"
-                //     to="/CreateAccount"
-                //     style={{ color: "white" }}
-                //   >
-                //     Create Account
-                //   </NavLink>
-                // </li>
-                // <li className="nav-item">
-                //   <NavLink
-                //     data-bs-toggle="tooltip"
-                //     data-bs-placement="bottom"
-                //     title="Login to your account"
-                //     className="nav-link"
-                //     to="/login"
-                //     style={{ color: "white" }}
-                //   >
-                //     Login
-                //   </NavLink>
-                // </li>
+                <li className="nav-item">
+                  <NavLink
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="bottom"
+                    title="Create a new account"
+                    className="nav-link"
+                    to="/CreateAccount"
+                    style={{ color: "white" }}
+                  >
+                    Create Account
+                  </NavLink>
+                </li>
+                <li className="nav-item">
+                  <NavLink
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="bottom"
+                    title="Login to your account"
+                    className="nav-link"
+                    to="/login"
+                    style={{ color: "white" }}
+                  >
+                    Login
+                  </NavLink>
+                </li>
                 <li className="nav-item">
                   <NavLink
                     data-bs-toggle="tooltip"
@@ -112,18 +112,6 @@ function NavBar() {
                     Log Out
                   </NavLink>
                 </li>
-                //       <li className="nav-item">
-                //   <NavLink
-                //     data-bs-toggle="tooltip"
-                //     data-bs-placement="bottom"
-                //     title="Log out of your account"
-                //     className="nav-link"
-                //     style={{ color: "white" }}
-                //     onClick={logOut}
-                //   >
-                //     <p>Hello, {activeUserEmail}</p>
-                //   </NavLink>
-                // </li>
               </ul>
             </div>
           </div>
