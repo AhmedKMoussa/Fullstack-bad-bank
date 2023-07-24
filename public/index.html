@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BadBank</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <style>
+    h1 {
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+    .card-body {
+      text-align: center;
+    }
+    .card {
+      margin-left: auto !important;
+      margin-right: auto !important;
+      max-width: 35rem !important;
+    }
+    .btn {
+      font-size: 2rem !important;
+    }
+    h5 {
+      font-size: 2.25rem;
+    }
+    p {
+      font-size: 1.5rem !important;
+    }
+    li > a:hover {
+      color: burlywood !important;
+      font-weight: bold;
+      text-shadow: 2px 1px #333;
+    }
+    #mainPage:hover {
+      color: burlywood !important;
+      font-weight: bold;
+    }
+
+    .active {
+      background-color: rgba(255, 255, 255, 0.507);
+      border-radius: 10px;
+    }
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+
+    .navbar-brand {
+      color: white !important;
+      font-size: 50px !important;
+      font-weight: lighter !important;
+    }
+    .navbar-collapse {
+      display: -ms-flexbox !important;
+      display: flex !important;
+      -ms-flex-preferred-size: auto;
+      flex-basis: auto;
+      justify-content: flex-end;
+    }
+  </style>
+  <body>
+    <div id="root"></div>
+
+    <script
+      src="https://unpkg.com/react/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-router@5.2.1/umd/react-router.min.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-router-dom@5.2.1/umd/react-router-dom.min.js"
+      crossorigin
+    ></script>
+
+    <script src="context.js" defer type="text/babel"></script>
+    <script src="navbar.js" defer type="text/babel"></script>
+    <script src="createaccount.js" defer type="text/babel"></script>
+    <script src="login.js" defer type="text/babel"></script>
+    <script src="deposit.js" defer type="text/babel"></script>
+    <script src="withdraw.js" defer type="text/babel"></script>
+    <script src="balance.js" defer type="text/babel"></script>
+    <script src="alldata.js" defer type="text/babel"></script>
+    <script src="home.js" defer type="text/babel"></script>
+    <script src="index.js" defer type="text/babel"></script>
+  </body>
+</html>
