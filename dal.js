@@ -1,6 +1,6 @@
 const MongoClient = require("mongodb").MongoClient;
 const url =
-  "mongodb+srv://ahmedkhaledd300:moussa1101@cluster0.ikzan3v.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb+srv://ahmedkhaledd300:XYWNB1DPb0j2eba7@cluster0.6kujezt.mongodb.net/?retryWrites=true&w=majority";
 let db = null;
 const jwt = require("jsonwebtoken");
 
