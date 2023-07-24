@@ -121,7 +121,7 @@ function NavBar() {
                     style={{ color: "white" }}
                     onClick={logOut}
                   >
-                    { activeUserEmail ?<p>Hello, {activeUserEmail}</p>: null }
+                    <p>Hello, {activeUserEmail}</p>
                   </NavLink>
                 </li>
               </ul>
