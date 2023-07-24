@@ -2,7 +2,6 @@ function NavBar() {
   const { userName, isLoggedIn, logOut } = React.useContext(UserContext);
   const useEffect = React.useEffect;
   useEffect(() => {}, [isLoggedIn]);
-
   if (isLoggedIn === true) {
     return (
       <>
@@ -26,8 +25,8 @@ function NavBar() {
               <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarNav">
-              <ul className="navbar-nav">
-                <li className="nav-item">
+              <ul className="navbar-nav" style={{ alignItems: "center" }}>
+                {/* <li className="nav-item">
                   <NavLink
                     data-bs-toggle="tooltip"
                     data-bs-placement="bottom"
@@ -50,7 +49,7 @@ function NavBar() {
                   >
                     Login
                   </NavLink>
-                </li>
+                </li> */}
                 <li className="nav-item">
                   <NavLink
                     data-bs-toggle="tooltip"
@@ -111,6 +110,12 @@ function NavBar() {
                   >
                     Log Out
                   </NavLink>
+                </li>
+                <li
+                  className="nav-item nav-link"
+                  style={{ color: "white", fontSize: "30px" }}
+                >
+                  Hello, {userName}
                 </li>
               </ul>
             </div>
